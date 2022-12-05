@@ -1,0 +1,9 @@
+A red-black tree is the variation of the binary search tree with the property of self-balancing. A red-black tree is also called symmetric binary B-Tree. Every node of the red-black tree contains an extra attribute denoting the color of the node, specifically, either red or black. The importance of these colors in the nodes of the tree ensures that the tree is balanced while insertion and deletion operations of the node. Therefore, the red-black tree follows the below properties:
+
+Tree Property: Red-Black tree should be a binary search tree.
+1 Red/Black Property: Every node of the tree is colored either red or black.
+2 Root Property: The color attribute of the root node is always black.
+3 Leaf Property: Every leaf of the tree is black.
+4 Red Property: The child node is always black if the parent node is red in color. Therefore, there should not be two consecutive red nodes.
+5 Depth Property: Every path from the root node to any leaf node should have the same number of black-colored nodes.
+Remember that every node of the red-black tree consumes only 1 bit of memory storage to store the color information, hence the tree is identical to the classic binary search tree.
